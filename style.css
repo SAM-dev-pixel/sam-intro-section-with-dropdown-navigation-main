@@ -130,6 +130,7 @@ img {
   position: relative;
 }
 .title {
+  margin-top: 15%;
   font-size: clamp(1rem, 9.2vw, 5.125rem);
   color: var(--almost-black);
   font-weight: 700;
@@ -265,6 +266,9 @@ img {
   .intro-section {
     padding: 3.125rem 5%;
     text-align: center;
+  }
+  .title {
+    margin-top: 0;
   }
   .intro-section p {
     width: 100%;
